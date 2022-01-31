@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gates.uniongates">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UnionGates"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".UserSelection"
+            android:exported="true" />
+        <activity
+            android:name=".IntroToApp"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RequestGate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LibraryGallary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartLibrary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Liberary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderPlaced"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FailedActivation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Cutomer_Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FinalFrame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SelectedFrameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectedFrame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PanelPreview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentSelectedFrame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PanelGallary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PanelSelection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PriceRange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interduction"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

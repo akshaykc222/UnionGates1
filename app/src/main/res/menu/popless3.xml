@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/pop30000grp" android:visible="false">
+        <item android:id="@+id/pop10000"
+            android:title="@string/less_than_10000"/>
+        <item android:id="@+id/pop20000"
+            android:title="@string/_10000_20000"/>
+        <item android:id="@+id/pop30000"
+            android:title="@string/_20000_30000"/>
+    </group>
+<group android:id="@+id/pop50000grp" android:visible="false">
+    <item android:id="@+id/pop40000"
+        android:title="@string/_30000_40000"/>
+    <item android:id="@+id/pop50000"
+        android:title="@string/_40000_50000"/>
+</group>
+    <group android:id="@+id/pop70000grp" android:visible="false">
+        <item android:id="@+id/pop60000"
+            android:title="@string/_50000_60000"/>
+        <item android:id="@+id/pop70000"
+            android:title="@string/_60000_70000"/>
+    </group>
+
+</menu>

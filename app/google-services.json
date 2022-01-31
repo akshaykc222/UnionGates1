@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "39756628611",
+    "firebase_url": "https://helps-28f27.firebaseio.com",
+    "project_id": "helps-28f27",
+    "storage_bucket": "helps-28f27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39756628611:android:1b2893171253595f3511b6",
+        "android_client_info": {
+          "package_name": "com.gates.uniongates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39756628611-8d0nc0sb7a8le5ofqh4r8vbk62oj9jco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmm-XWdzY_CrBmrRg91lbisbXZacGiNEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39756628611-8d0nc0sb7a8le5ofqh4r8vbk62oj9jco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

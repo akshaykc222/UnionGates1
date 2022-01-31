@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Cutomer_Details">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_customers_details"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_name"
+
+            android:inputType="text"
+            android:layout_marginVertical="5dp"
+
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:importantForAutofill="no" />
+    </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_phone"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:layout_marginVertical="5dp"
+
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"/>
+</com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/c_altphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alternative_phone_number"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:layout_marginVertical="5dp"
+
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"/>
+        </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+  >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/caddress"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/cutomer_address"
+        android:gravity="center"
+
+        android:inputType="textMultiLine"
+        android:layout_marginVertical="5dp"
+
+        android:layout_marginHorizontal="10dp"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pin_code"
+                android:gravity="center"
+                android:maxLength="6"
+                android:inputType="number"
+                android:layout_marginVertical="5dp"
+
+                android:layout_marginHorizontal="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/agent_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/agent_phone_number"
+
+           android:layout_marginVertical="5dp"
+           android:enabled="false"
+           android:layout_marginHorizontal="10dp"
+           android:gravity="center"
+           />
+   </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:background="@drawable/simple_boarder"
+     />
+
+    </LinearLayout>
+    <include layout="@layout/loading_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        layout="@layout/imge_shower"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"/>
+</RelativeLayout>

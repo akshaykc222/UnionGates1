@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/price_range"
+   >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/select_yor_price_range"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+      android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+       >
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/range1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/below_25000"
+      android:textSize="16sp"
+      android:textAllCaps="false"
+      android:elevation="0dp"
+
+      android:layout_marginHorizontal="10dp"
+      android:background="@drawable/simple_boarder"
+      tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_25000_35000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_35000_45000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_45000_55000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_55000_65000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_65000v_75000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/range7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/above_75000"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/simple_boarder"
+        tools:ignore="UnusedAttribute" />
+    </LinearLayout>
+</RelativeLayout>
